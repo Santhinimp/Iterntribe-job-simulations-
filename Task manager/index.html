@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Task Manager</h1>
+  </header>
+
+  <section class="controls">
+    <button id="loadTasksBtn">Load Tasks</button>
+    <button id="startProgressBtn">Start Progress</button>
+    <button id="stopProgressBtn">Stop Progress</button>
+    <button id="delayNotificationBtn">Delay Notification</button>
+    <input type="text" id="newTaskInput" placeholder="Enter new task name" />
+    <button id="addTaskBtn">Add Task</button>
+  </section>
+
+  <section id="taskContainer" class="task-container"></section>
+
+  <section id="notificationPanel" class="notification-panel"></section>
+
+  <script src="script.js"></script>
+</body>
+</html>
